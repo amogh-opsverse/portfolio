@@ -17,6 +17,7 @@ export function Seo(props) {
   
   `)
 
+  //defining the vars to be used by React component below
   const defaults = data?.site?.siteMetadata;
   const title = props.title || defaults.title;
   const description = props.description || defaults.description;
