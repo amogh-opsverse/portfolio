@@ -1,0 +1,25 @@
+---
+date: 2021-08-13  
+title: My Second Blog
+description: This is my second MDX blog post
+---
+import { graphql } from 'gatsby';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+
+export const query = graphql`query GetImageBlog2 {
+  file(name: {eq: "smashburger"}) {
+    childImageSharp {
+      gatsbyImageData(placeholder: TRACED_SVG)
+    }
+  }
+}
+`;
+
+# other blog
+
+<GatsbyImage
+  image={getImage(props.data.file)}
+  alt="image of a burger"
+/>
+
+Hera, you have killed me.
