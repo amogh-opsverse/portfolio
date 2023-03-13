@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.hera.org",
-    title: 'Portfolio Website',
+    title: 'a m o g h',
     description: 'Portfolio Website',
     image: 'https://i.pinimg.com/236x/50/c2/e8/50c2e875992887a0814172c32782e189--ancient-greek-art-ancient-greece.jpg'
   },
@@ -16,6 +16,17 @@ module.exports = {
         path: `${__dirname}/src/posts`,
       },
     },
+    // {
+    //   resolve: "gatsby-plugin-google-fonts",
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: "greek",
+    //         variants: ["400", "700"],
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-page-creator',
       options: {

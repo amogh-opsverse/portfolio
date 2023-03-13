@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import Layout from '../../components/layout';
 
+
 export const query = graphql`
   query SanityEpisode($id: String!){
     sanityEpisode(id: {eq: $id}){

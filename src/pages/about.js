@@ -13,18 +13,19 @@ export const query = graphql`
 }
 `;
 
+//data here is the props.data and the file image is being returned from the above graphql query
 export default function AboutPage({ data }) {
   return (
     <Layout
       title="about this page"
       description="more info"
     >
-      <GatsbyImage
+      {/* <GatsbyImage
         image={getImage(data.file)}
         alt="image of a fancy drink"
       />
       <h1>About this site</h1>
-      <Link to="/">Back to home</Link>
+      <Link to="/">Back to home</Link> */}
     </Layout>
   )
 }

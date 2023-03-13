@@ -43,17 +43,22 @@ const episodes = data.allSanityEpisode.nodes;
 
 
   return (
+    <div>
+
     <Layout>
       <div className={imageWrapper}>
+      <Link to="/about">
         <StaticImage
-          src="../images/ivana-la-61jg6zviI7I-unsplash.jpg"
-          alt="a sweet corgi"
+          src="../images/profpic.jpg"
+          alt="a pained man"
           placeholder='blurred'
           width={300}
           height={300}
         />
+      </Link>
       </div>
-      <h1>Hello</h1>
+
+      {/* <h1>Hello</h1>
       <Link to="/about">abot page</Link>
       <h2>Check out my recent blog posts</h2>
       <ul>
@@ -63,9 +68,9 @@ const episodes = data.allSanityEpisode.nodes;
             <small>posted {post.frontmatter.date}</small>
           </li>
         ))}
-      </ul>
+      </ul> */}
 
-      <h2>
+      {/* <h2>
           Latest episodes of <em>Learn with narcissus</em>
       </h2>
       <ul>
@@ -81,7 +86,9 @@ const episodes = data.allSanityEpisode.nodes;
       </ul>
       <a href="https://learnwithnarcissus.dev">
         Watch all episodes of narcissus
-      </a>
+      </a> */}
+
     </Layout>
+    </div>
   );
 }

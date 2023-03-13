@@ -13,6 +13,7 @@ export default function PostLayout({ children, ...props }){
 }
 */
 
+//being used in gatsby-config.js
 export default function PostLayout({ children, pageContext }){
   const {title, description} = pageContext.frontmatter;
   return (
