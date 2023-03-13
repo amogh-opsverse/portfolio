@@ -8,3 +8,5 @@ install the netlify-cli
 ntl init and follow the steps to initialize a new project 
 
 - Sanity CMS: https://www.sanity.io/headless-cms
+
+test
