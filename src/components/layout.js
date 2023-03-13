@@ -5,6 +5,7 @@ import { Seo } from './seo.js';
 import { header, headerTitle, content, navbar, button } from '../styles/layout.module.css';
 import '../styles/global.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 export default function Layout({
@@ -32,7 +33,7 @@ export default function Layout({
       <Seo title={title} description={description} image={image} path={path} />
       <header className={header}>
           <Link to="/" className={headerTitle}>
-            <FontAwesomeIcon icon={faHome} className={button}>
+            <FontAwesomeIcon icon={faHome}>
             </FontAwesomeIcon>
           </Link>
       {/* <nav>

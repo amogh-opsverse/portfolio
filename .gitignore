@@ -6,4 +6,7 @@ public
 # Local Netlify folder
 .netlify
 
+.pnp.cjs
+.pnp.loader.mjs
+
 package-lock.json

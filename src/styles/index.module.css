@@ -4,6 +4,7 @@
   justify-content: center;
   height: 150px;
   position: relative;
+	left: 20px;
   
 	transform: scale(1);
 	animation: pulse 6s infinite;

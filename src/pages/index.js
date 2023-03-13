@@ -52,8 +52,8 @@ const episodes = data.allSanityEpisode.nodes;
           src="../images/profpic.jpg"
           alt="a pained man"
           placeholder='blurred'
-          width={300}
-          height={300}
+          width={200}
+          height={200}
         />
       </Link>
       </div>

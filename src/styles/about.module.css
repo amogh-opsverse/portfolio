@@ -1,0 +1,19 @@
+.anchor {
+  font-size: 28px;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.div-socials{
+  position: relative;
+  margin-top: 110px;
+  left: 125px;
+  top: 140px;
+}
+
+.anchor a:visited {
+  color: whitesmoke;
+}
